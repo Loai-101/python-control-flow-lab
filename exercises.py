@@ -38,19 +38,6 @@ check_voting_eligibility()
 #
 # Write a Python function named `calculate_dog_years` that calculates a dog's age in dog years.
 # Fill in the logic to perform the calculation inside the function.
-#
-# Function Details:
-# - Prompt the user to enter a dog's age: "Input a dog's age: "
-# - Calculate the dog's age in dog years:
-#      - The first two years of the dog's life count as 10 dog years each.
-#      - Each subsequent year counts as 7 dog years.
-# - Print the calculated age: "The dog's age in dog years is xx."
-# - Replace 'xx' with the calculated dog years.
-#
-# Hints:
-# - Use the `input()` function to capture user input.
-# - Convert the string input to an integer using `int()`.
-# - Apply conditional logic to perform the correct age calculation based on the dog's age.
 
 def calculate_dog_years():
     age= int(input("Input a dog's age: "))
@@ -89,21 +76,7 @@ weather_advice()
 # Exercise 5: What's the Season?
 #
 # Write a Python function named `determine_season` that figures out the season based on the entered date.
-#
-# Requirements:
-# - The function should first prompt the user to enter the month (as three characters): "Enter the month of the year (Jan - Dec):"
-# - Then, the function should prompt the user to enter the day of the month: "Enter the day of the month:"
-# - Determine the current season based on the date:
-#      - Dec 21 - Mar 19: Winter
-#      - Mar 20 - Jun 20: Spring
-#      - Jun 21 - Sep 21: Summer
-#      - Sep 22 - Dec 20: Fall
-# - Print the season for the entered date in the format: "<Mmm> <dd> is in <season>."
-#
-# Hints:
-# - Use 'in' to check if a string is in a list or tuple.
-# - Adjust the season based on the day of the month when needed.
-# - Ensure to validate input formats and handle unexpected inputs gracefully.
+
 
 def determine_season():
    month= input("Enter the month of the year (Jan - Dec): ")
