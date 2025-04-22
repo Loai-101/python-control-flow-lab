@@ -93,3 +93,26 @@ def determine_season():
        print("Invalid entry.")
        
 determine_season()
+
+#Level Up :
+
+# Exercise 6: Number Guessing Game
+#
+# Write a Python function named `guess_number` that allows a user to guess a predetermined number within a range.
+
+def guess_number():
+    target= 42
+    for i in range(5):
+        guess= int(input("Guess a number: "))
+        if guess < target:
+            print("Guess is too low.")
+        elif guess > target:
+            print("Guess is too high.")
+        elif guess == target:
+            print("Congratulations, you guessed correctly!")
+            break
+    else:
+        print("Sorry, you failed to guess the number in five attempts.")
+
+guess_number()
+
